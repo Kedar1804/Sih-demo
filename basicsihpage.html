@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department of Justice</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        /* Header and Navbar Styles */
+        header {
+            background: #ffc60a;
+            color: #fff;
+            padding: 1px 0;
+            border-bottom: #eeff00 3px solid;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+       
+        header .logo {
+            float: left;
+            margin-right: 20px;
+            margin-top: 10px; /* Align the logo with the navbar */
+        }
+
+        header .logo img {
+            width: 40px; /* Adjust the width and height */
+            height: 40px;
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        nav {
+            flex: 1;
+            text-align: right;
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url('https://www.indiaspend.com/h-upload/2022/12/23/857559-updated-criminal-justice-1500.webp') no-repeat center center/cover;
+            color: #070404;
+            padding: 150px 0;
+            text-align: center;
+            margin-top: 70px; /* Offset for fixed header */
+            height: 100vh; /* Full viewport height */
+            background-size: cover; /* Optional: Cover background size */
+        }
+
+        .hero h2 {
+            margin: 0;
+            font-size: 48px;
+        }
+
+        .hero p {
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+
+        .hero .btn {
+            background: #d2723e;
+            color: #110e0e;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        .hero .btn:hover {
+            background: #00264d;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 50px 0;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 32px;
+        }
+
+        section p {
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .services-list {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .service-item {
+            background: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 30%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .service-item img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .service-item h3 {
+            margin-top: 0;
+            font-size: 24px;
+            color: #004080;
+        }
+
+        .service-item p {
+            font-size: 16px;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form button {
+            background: #004080;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        form button:hover {
+            background: #00264d;
+        }
+
+        /* Footer Styles */
+        footer {
+            background: #004080;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSi208dAFlkygsDgzM8Nz7ptdwFrZsNZPXkCAGXAEH8E_b9q_5yleGX6y1xzlsCun32Ls&usqp=CAU" alt="Department of Justice Logo">
+            </div>
+            <h1>Department of Justice</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to the Department of Justice</h2>
+            <p>Ensuring justice and equality for all citizens.</p>
+            <a href="#services" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>The Department of Justice is dedicated to upholding the law and ensuring that justice is served for all. Our mission is to provide a fair and impartial legal system that protects the rights of all citizens.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-list">
+                <div class="service-item">
+                    <img src="https://www.livelaw.in/h-upload/2022/11/14/1600x960_444092-legal-aid.jpg" alt="Legal Assistance">
+                    <h3>Legal Assistance</h3>
+                    <p>Providing legal support and resources to citizens in need.</p>
+                </div>
+                <div class="service-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFO1imRCKq__4o3SOqb5Xohje3d5z7z3dugA&s" alt="Case Tracking">
+                    <h3>Case Tracking</h3>
+                    <p>Track the status of ongoing legal cases and court dates.</p>
+                </div>
+                <div class="service-item">
+                    <img src="https://www.tyccommunication.com/wp-content/uploads/2018/05/What-is-Public-Opinion-Research-Why-Should-You-Do-It.jpg" alt="Another Service"> <!-- Replace with valid image -->
+                    <h3>Another Service</h3>
+                    <p>Description of another service provided by the Department of Justice.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Satyam"
+  agent-id="940e3f47-016b-4bba-bcde-e52252d76a95"
+  language-code="en"
+></df-messenger>
+
+    <footer>
+        <p>&copy; 2024 Department of Justice. All rights reserved.</p>
+    </footer>
+</body>
+</html>
