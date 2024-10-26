@@ -9,3 +9,6 @@ automating administrative processes to improve efficiency
 
 
 https://kedar1804.github.io/Sih-demo/
+
+# ScreenShot
+https://github.com/Kedar1804/Sih-demo/blob/c4210a8466a2711026e2d0a58550a360b2e03833/Screenshot%202024-10-26%20161204.png
